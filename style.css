@@ -1,0 +1,29 @@
+#map { 
+    height: 50em;
+    width: 100em;
+    background-color: #ccc;
+    padding: 2%;
+}
+#map::before{
+    content: 'LOADING';
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin-top: 3em;
+}
+.leaflet-popup-content-wrapper {
+    width: 100%;
+}
+
+#spotlight {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#business_selector {
+    padding: 2%;
+}
